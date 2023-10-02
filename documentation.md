@@ -18,6 +18,7 @@ The purpose of this deployment was to deploy an automated elastic deployment. Th
 6. Return to your GitHub repo and within the Jenkins file, add the deploy stage:
    
 ``stage ('Deploy') { steps { sh '/var/lib/jenkins/.local/bin/eb deploy' } }``
+
 ![Screen Shot 2023-09-15 at 11 49 02 PM](https://github.com/Sameen-k/Deployment3/assets/128739962/7cb6c09c-d551-4841-b08b-6d23fb6bb924)
 
 8. Return to Jenkins and re-test the application. Now observe the additional stage in Jenkins
